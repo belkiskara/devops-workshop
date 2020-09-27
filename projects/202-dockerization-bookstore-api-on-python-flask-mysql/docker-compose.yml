@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   website:
-    image: bb4it/bookstore-api
+    image: blkskr/bookstore-api
     restart: always
     depends_on: 
       - database
