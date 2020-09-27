@@ -12,9 +12,9 @@ services:
   database:
     image: mysql:5.7 
     environment:
-      MYSQL_ROOT_PASSWORD: Bbeyaz
-      MYSQL_USER: bb4it
-      MYSQL_PASSWORD: bb4it.me
+      MYSQL_ROOT_PASSWORD: blkskr
+      MYSQL_USER: blkskr
+      MYSQL_PASSWORD: blkskr.me
       MYSQL_DATABASE: bookstore_db
     networks:
       - whitenet
