@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   website:
-    image: 375516740190.dkr.ecr.us-east-1.amazonaws.com/bb4it/phonebook-app:latest # bb4it/phonebook-api 
+    image: 375516740190.dkr.ecr.us-east-1.amazonaws.com/belkiskara/phonebook-app:latest # bb4it/phonebook-api 
     restart: always
     depends_on: 
       - database
@@ -19,9 +19,9 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: Bbeyaz
-      MYSQL_USER: bb4it
-      MYSQL_PASSWORD: bb4it.me
+      MYSQL_ROOT_PASSWORD: Blkskr
+      MYSQL_USER: belkiskara
+      MYSQL_PASSWORD: belkiskara.me
       MYSQL_DATABASE: phonebook_db
     networks:
       - whitenet
